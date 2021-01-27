@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+.header .platzi_logo img {
+  height: 60px;
+  width: 180px;
+}
+.header .header__user {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: white;
+}
+.header .header__user img {
+  margin: auto 10px;
+  width: 35px;
+}
+.user__menu {
+  position: relative;
+  display: inline-block;
+}
+.header .user__menu .dropbtn {
+  cursor: pointer;
+}
+.user__content {
+  display: none;
+}
+
+.user__menu:hover .user__content {
+  position: absolute;
+  display: inline-block;
+  padding: 10px;
+}
+.user__content li a {
+  line-height: 2.5rem;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}

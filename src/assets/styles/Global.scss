@@ -1,0 +1,21 @@
+@import "./Vars.scss";
+@import "./Media.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: $theme-font;
+}
+body {
+  background: $main-color;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  overflow-x: hidden;
+}

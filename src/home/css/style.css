@@ -1,165 +1,50 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html {
-    font-size: 62.5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 62.5%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
-    background: url(../cifv0quj7sx21.jpg) no-repeat center / cover;
-}
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 30px;
-}
-.header .platzi_logo img {
-    height: 40px;
-    width: 100px;
-}
-.header .header__user {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    color: white;
-}
-.header .header__user img {
-    margin: auto 10px;
-    width: 35px;
-}
-.user__menu {
-    position: relative;
-    display: inline-block;
-}
-.header .user__menu .dropbtn {
-    cursor: pointer;
-}
-.user__content {
-    display: none;
+  background: url(../cifv0quj7sx21.jpg) no-repeat center / cover;
 }
 
-.user__menu:hover .user__content {
-    position: absolute;
-    display: inline-block;
-    padding: 10px;
-
-}
-.user__content li a {
-    line-height: 2.5rem;
-    font-weight: 600;
-    color: white;
-    text-decoration: none;
-}
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
 }
 .container__title {
-    margin-bottom: 15px;
-    font-size: 2.2rem;
-    color: white;
+  margin-bottom: 15px;
+  font-size: 2.2rem;
+  color: white;
 }
-.container label input{
-    width: 60vw;
-    height: 40px;
-    padding-left: 10px;
-    border-radius: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    color: white;
-    border: 2px solid white;
-    background: rgba(255, 255, 255, 0.1);
+.container label input {
+  width: 60vw;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  background: rgba(255, 255, 255, 0.1);
 }
 .container label input:focus-within {
-    outline-style: none;
-    background: rgba(255, 255, 255, 0.01);
+  outline-style: none;
+  background: rgba(255, 255, 255, 0.01);
 }
 .container label input::placeholder {
-    color: white;
+  color: white;
 }
 .categories__title {
-    position: absolute;
-    padding-left: 30px;
-    width: 100%;
-    font-size: 1.6rem;
-    color:white;
-}
-.carousel {
-    position: relative;
-    width: 100%;
-    padding:30px;
-    overflow: hidden;
-}
-.carousel__container {
-    margin: 70px 0px;
-    padding-bottom: 10px;
-    white-space: nowrap;
-}
-.carousel-item {
-    position: relative;
-    display: inline-block;
-    margin-right: 10px;
-    width: 200px;
-    height: 250px;
-    border-radius: 20px;
-    overflow: hidden;
-    cursor: pointer;
-    transition: 450ms all;
-    transform-origin: center left;
-}
-.carousel-item:hover ~ .carousel-item{
-    transform: translate3d(100px, 0, 0);
-}
-.carousel__container:hover .carousel-item {
-    opacity: 0.3;
-}
-.carousel__container:hover .carousel-item:hover {
-    opacity: 1;
-    transform: scale(1.5);
-}
-.carousel-item__img {
-    width: 200px;
-    height: 250px;
-    object-fit: cover;
-}
-.carousel-item__details {
-    position: absolute;
-    top: 160px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0;
-    padding: 10px;
-    font-size: 10px;
-    color: white;
-    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
-    transition: 450ms opacity;
-}
-.carousel-item__details img {
-    width: 30px;
-}
-.carousel-item:hover .carousel-item__details {
-    opacity: 1;
-}
-.footer {
-    display: flex;
-    align-items: center;
-    height: 107px;
-    width: 100%;
-    font-weight: 600;
-}
-.footer a {
-    padding-left: 30px;
-    font-size: 1.4rem;
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-}
-.footer a:hover {
-    text-decoration: underline;
+  position: absolute;
+  padding-left: 30px;
+  width: 100%;
+  font-size: 1.6rem;
+  color: white;
 }
